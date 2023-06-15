@@ -1,0 +1,357 @@
+@font-face {
+    font-family: Castoro Titling;
+    src: url(./fonts/CastoroTitling-Regular.ttf);
+}
+@font-face {
+    font-family: Cinzel Decorative-Regular;
+    src: url(./fonts/CinzelDecorative-Regular.ttf);
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+a:hover {
+    color: #aa1945;
+    font-weight: bold;
+}
+
+header {
+    margin: 0;
+    text-align: center;
+}
+
+.headerFixed {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Header Logo */
+.headerFixed img {
+    width: 250px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Header Button */
+.headerFixed-black>a {
+    color: white;
+    background-color: #aa1945;
+    font-family: 'Castoro Titling', serif;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 170px;
+    height: 35px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: auto;
+    padding-top: 14px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.headerFixed-black>a:hover {
+    color: #aa1945;
+    font-weight: bold;
+    background-color: #AD9F66;
+}
+
+
+/* Header Navigation */
+.headerFixed-white {
+    background-color: white;
+    padding-top: 17px;
+    position: sticky;
+    top: 0;
+}
+
+/* Navigation Side-By-Side Flex */
+.headerFixed-white ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
+
+.headerFixed-white a {
+    color: black;
+    font-family: 'Castoro Titling', serif;
+    text-decoration: none;
+}
+
+.headerFixed-white a:hover {
+    color: #aa1945;
+    font-weight: bold;
+}
+
+/* Header Image */
+.headerImg {
+    margin-top: 176.93px;
+}
+
+/* Section1 About Us */
+#aboutUs:target {
+    scroll-margin-top: 186px;
+}
+
+h1 {
+    font-family: 'Castoro Titling', serif;
+    font-size: xx-large;
+    color: #AD9F66;
+    text-align: center;
+     margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Cinzel Decorative-Regular', serif;
+    font-size: xx-large;
+    color: #AD9F66;
+    text-align: center;
+}
+
+.aboutUs {
+    text-align: center;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-bottom: 30px;
+}
+
+.aboutUs img {
+    width: 700px;
+}
+
+.aboutUs p {
+    text-align: left;
+}
+
+/* Section2 News Letter */
+.newsLetter {
+    background-image: url(./img/about_us_manicure.png);
+    height: 400px;
+}
+
+.newsLetter div {
+    padding-top: 180px;
+    padding-left: 100px;
+}
+
+.discount {
+    color: #aa1945;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Castoro Titling', serif;
+}
+
+.send-newsLetter {
+    font-family: 'Castoro Titling', serif;
+    background-color: #AD9F66;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-bottom: 0px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+.send-newsLetter:hover{
+    color: #AD9F66;
+    background-color: #aa1945;
+    font-weight: bold;
+}
+
+/* Section3 Treatments */
+#treatments:target {
+    scroll-margin-top: 159.44px;
+}
+.treatments {
+    background-color: black;
+    color: white;
+}
+
+.treatments h2 {
+    margin-top: 0;
+    padding-top: 26.56px;
+}
+
+.treatments img {
+    width: 300px;
+    height: 300px;
+    position: end;
+    border-radius: 50%;
+}
+
+.treatments article {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.treatments div {
+    font-family: 'Castoro Titling', serif;
+    text-align: center;
+}
+
+/* Section4 Gallery */
+#gallery {
+    scroll-margin-top: 186px;
+}
+
+.gallery div {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.gallery img {
+    vertical-align: bottom;
+}
+
+@keyframes effect {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+
+}
+.gallery img:hover {
+    border-radius: 50%;
+    box-shadow: 5px 5px 30px black;
+    animation-name: effect;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+/* Section5 Contact */
+.contact {
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+}
+
+.contact p {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.contact input {
+    margin-bottom: 16px;
+    width: 500px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.message {
+    height: 100px;
+}
+
+.send {
+    font-family: 'Castoro Titling', serif;
+    font-size: 18px;
+    background-color: #AD9F66;
+    color: white;
+    height: 45px;
+    margin-bottom: 0px;
+    padding-top: 4px;
+    padding-right: 2px;
+    padding-left: 2px;
+    border: 2px solid #AD9F66;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+.send:hover{
+    color: #AD9F66;
+    border: 2px solid #aa1945;
+    background-color: #aa1945;
+    font-weight: bold;
+}
+
+/* Contact Right Side */
+.contactInfo img {
+    width: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contactInfo p {
+font-size: 18px;
+}
+
+.mail {
+    display: flex;
+}
+
+.mail img {
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.mail p {
+    margin-top: 14px;
+    padding-left: 5px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.phone img {
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.phone p {
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+}
+
+.address img {
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.address p {
+    margin-top: -5px;
+    padding-left: 5px;
+}
+
+.sns img {
+    width: 30px;
+    margin: 0px;
+    padding-right: 5px;
+}
+
+/* Footer Copyright */
+footer {
+    text-align: center;
+    font-family: 'Cinzel Decorative-Regular', serif;
+}
