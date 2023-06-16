@@ -138,6 +138,7 @@ h2 {
 .newsLetter {
     background-image: url(./img/about_us_manicure.png);
     height: 400px;
+    width: 100%;
 }
 
 .newsLetter div {
