@@ -137,10 +137,7 @@ h2 {
 /* Section2 News Letter */
 .newsLetter {
     background-image: url(./img/about_us_manicure.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    display: flex;
-    justify-content: center;
+    height: 400px;
 }
 
 .newsLetter div {
