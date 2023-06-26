@@ -141,8 +141,7 @@ h2 {
 }
 
 .newsLetter div {
-    padding-top: 130px;
-    padding-bottom: 30px;
+    padding-top: 180px;
     padding-left: 100px;
 }
 
@@ -208,12 +207,6 @@ h2 {
 /* Section4 Gallery */
 #gallery {
     scroll-margin-top: 186px;
-}
-
-.gallery div {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
 }
 
 .gallery img {
