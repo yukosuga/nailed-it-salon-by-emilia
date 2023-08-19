@@ -1,12 +1,15 @@
 # Final Project at DCI (Digital Career Institute)
-## Web Development 👩🏻‍💻
+## Web Development Orientation Course👩🏻‍💻
+### Version 2 - Edited for Responsive Design
 ![Github page top image](./readme_img.png)
 
-My final project at DCI (Digital Career Institute).  
-The site is Unresponsive Design. It was created for the device-width 1519,20px.
-
+My final project (Web Development Orientation Course) at DCI.  
+This is the Version 2, edited for responsive design.
 
 🔗 Please click here to visit the website.  
-    ⬇️  
+[nailed it Salon By EMILIA](https://yukosuga.github.io/nailed-it-salon-by-emilia/) 💅✨
 
-<a href="https://yukosuga.github.io/my-first-webpage/" target="_blank"><img src=Transform%20Your%20Nails%20into%20a%20Work%20of%20Art.png width="250"></a>
+
+The [original](https://yukosuga.github.io/my-first-webpage/) was Unresponsive Design.  
+It was created for the device-width 1519,20px.
+
