@@ -17,7 +17,8 @@
   src: url(./fonts/CinzelDecorative-Regular.ttf);
 }
 
-body {
+body,
+input {
   font-size: 2rem;
   font-family: "Times New Roman", Times, serif;
   margin: 0;
@@ -140,15 +141,13 @@ h1 {
   margin-top: 1em;
 }
 
-/* .aboutUs img:nth-of-type(1) {
-  width: 45rem;
-} */
 .aboutUs div:nth-of-type(1) {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
+.aboutUs div:nth-of-type(1),
 .aboutUs div:nth-of-type(2) {
   width: 70rem;
   margin: 2em auto;
@@ -406,7 +405,9 @@ footer {
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   .aboutUs,
   .aboutUs img,
-  .aboutUs div {
+  .aboutUs div,
+  .aboutUs div:nth-of-type(1),
+  .aboutUs div:nth-of-type(2) {
     width: 90%;
     margin: auto;
   }
@@ -426,11 +427,12 @@ footer {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .aboutUs,
   .aboutUs img,
-  .aboutUs div {
+  .aboutUs div,
+  .aboutUs div:nth-of-type(1),
+  .aboutUs div:nth-of-type(2) {
     width: 90%;
     margin: auto;
   }
-
   .gallery div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
